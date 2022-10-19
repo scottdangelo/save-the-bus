@@ -116,7 +116,7 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #ef8172;
+  background-color: #72c9ef;
 }
 
 .testimonial-text {
@@ -125,7 +125,8 @@ p {
 }
 
 .testimonial-image {
-  width: 10%;
+  max-width: 50%;
+  height: auto;
   border-radius: 100%;
   margin: 20px;
 }
