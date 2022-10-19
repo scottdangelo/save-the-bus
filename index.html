@@ -1,236 +1,270 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Save The Bus!</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>Save The Bus!</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
 
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</head>
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
 
-<body>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">Miss Construed</a>
 
-  <section class="colored-section" id="title">
-
-    <div class="container-fluid">
-
-      <!-- Nav Bar -->
-
-      <nav class="navbar navbar-expand-lg navbar-dark">
-
-        <a class="navbar-brand" href="">Miss Construed</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+          >
             <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-          </ul>
+        <!-- Title -->
 
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">
+              "Either you're on the bus, or you're off the bus"
+            </h1>
+            <h2>...Ken Kesey</h2>
+            <img src="images/bus-in-field.jpg" alt="Bus lying in the field" />
+          </div>
+          <div class="col-lg-6">
+            <img src="images/door-side-bus.jpg" alt="Bus door side" />
+          </div>
         </div>
-      </nav>
+      </div>
+    </section>
 
+    <!-- Features -->
 
-      <!-- Title -->
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h3 class="feature-title">Save a piece of history</h3>
+            <p>You'll never go back, but you can go further</p>
+          </div>
+
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-bullseye fa-4x"></i>
+            <h3 class="feature-title">Keep the dream alive</h3>
+            <p>You know you always wanted to fix up a bus...</p>
+          </div>
+
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-heart fa-4x"></i>
+            <h3 class="feature-title">Turn it on and keep it on.</h3>
+            <p>Let it shine.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="colored-section" id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">The parts are still there...</h2>
+            <img
+              class="testimonial-image"
+              src="images/open-hood-in-field-bus.jpg"
+              alt="open-hood-bus-in-field"
+            />
+            <em>Scott "Rivet"</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">It used to look like this.</h2>
+            <img
+              class="testimonial-image"
+              src="images/orig-ceiling-bus.jpg"
+              alt="orig-ceiling-bus"
+            />
+            <em>The past</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">Join the band.</h2>
+            <img
+              class="testimonial-image"
+              src="images/join-the-band-bus-field.jpg"
+              alt="join-the-band"
+            />
+            <em>Happy Mike</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">The Driver checks the engine.</h2>
+            <img
+              class="testimonial-image"
+              src="images/bus-and-driver.jpeg"
+              alt="bus-and-driver"
+            />
+            <em>Chris</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section class="colored-section" id="press">
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-logo"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section class="white-section" id="pricing">
+      <h2 class="section-heading">Give what you can, take what you need</h2>
+      <p>Come back soon to view ways to contribute.</p>
 
       <div class="row">
-
-        <div class="col-lg-6">
-        <h1 class="big-heading">"Either you're on the bus, or you're off the bus"</h1>
-        <h2>...Ken Kesey</h2>
-        <img src="images/bus-in-field.jpg" alt="Bus lying in the field">
-        </div>
-
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- Features -->
-
-  <section class="white-section" id="features">
-
-    <div class="container-fluid">
-
-      <div class="row">
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <h3 class="feature-title">Save a piece of history</h3>
-          <p>You'll never go back, but you can go further </p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-bullseye fa-4x"></i>
-          <h3 class="feature-title">Keep the dream alive</h3>
-          <p>You know you always wanted to fix up a bus...</p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-heart fa-4x"></i>
-          <h3 class="feature-title">Turn it on and keep it on.</h3>
-          <p>Let it shine.</p>
-        </div>
-      </div>
-
-
-    </div>
-  </section>
-
-
-  <!-- Testimonials -->
-
-  <section class="colored-section" id="testimonials">
-
-    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">The parts are still there...</h2>
-          <img class="testimonial-image" src="images/open-hood-in-field-bus.jpg" alt="open-hood-bus-in-field">
-          <em>Scott "Rivet"</em>
-        </div>
-        <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">It used to look like this.</h2>
-          <img class="testimonial-image" src="images/orig-ceiling-bus.jpg" alt="orig-ceiling-bus">
-          <em>The past</em>
-        </div>
-        <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">Join the band.</h2>
-          <img class="testimonial-image" src="images/join-the-band-bus-field.jpg" alt="join-the-band">
-          <em>Happy Mike</em>
-        </div>
-        <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">The Driver checks the engine.</h2>
-          <img class="testimonial-image" src="images/bus-and-driver.jpeg" alt="bus-and-driver">
-          <em>Chris</em>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-
-  </section>
-
-
-  <!-- Press -->
-
-  <section class="colored-section" id="press">
-    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
-    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-
-  </section>
-
-
-  <!-- Pricing -->
-
-  <section class="white-section" id="pricing">
-
-    <h2 class="section-heading">Give what you can, take what you need</h2>
-    <p>Come back soon to view ways to contribute.</p>
-
-    <div class="row">
-
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>Love only</h3>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Love only</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Free</h2>
+              <p>Stay in touch</p>
+              <p>Share with friends</p>
+              <p>Spread the love</p>
+              <button
+                class="btn btn-lg btn-block btn-outline-dark"
+                type="button"
+              >
+                Sign Up
+              </button>
+            </div>
           </div>
-          <div class="card-body">
-            <h2 class="price-text">Free</h2>
-            <p>Stay in touch</p>
-            <p>Share with friends</p>
-            <p>Spread the love</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>I can contribute</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$Some money</h2>
+              <p>We'll figure out how this works</p>
+              <p>Thanks in advance!</p>
+              <button class="btn btn-lg btn-block btn-dark" type="button">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>$Lots of money</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$No limits</h2>
+              <p>I'm loaded, and love to help</p>
+              <p>Please contact us!</p>
+              <button class="btn btn-lg btn-block btn-dark" type="button">
+                Sign Up
+              </button>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>I can contribute</h3>
-          </div>
-          <div class="card-body">
-            <h2 class="price-text">$Some money</h2>
-            <p>We'll figure out how this works</p>
-            <p>Thanks in advance!</p>
-            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
-          </div>
-        </div>
+    <!-- Call to Action -->
+
+    <section class="colored-section" id="cta">
+      <div class="container-fluid">
+        <h3 class="big-heading">Never stop dreaming.</h3>
       </div>
+    </section>
 
-      <div class="pricing-column col-lg-4">
-        <div class="card">
-          <div class="card-header">
-            <h3>$Lots of money</h3>
-          </div>
-          <div class="card-body">
-            <h2 class="price-text">$No limits</h2>
-            <p>I'm loaded, and love to help</p>
-            <p>Please contact us!</p>
-            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+    <!-- Footer -->
 
-          </div>
-        </div>
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>© Copyleft 2022 Chill and Cool</p>
       </div>
-
-
-
-    </div>
-
-  </section>
-
-
-  <!-- Call to Action -->
-
-  <section class="colored-section" id="cta">
-
-    <div class="container-fluid">
-
-      <h3 class="big-heading">Never stop dreaming.</h3>
-    </div>
-  </section>
-
-
-  <!-- Footer -->
-
-  <footer class="white-section" id="footer">
-    <div class="container-fluid">
-      <i class="social-icon fab fa-facebook-f"></i>
-      <i class="social-icon fab fa-twitter"></i>
-      <i class="social-icon fab fa-instagram"></i>
-      <i class="social-icon fas fa-envelope"></i>
-      <p>© Copyleft 2022 Chill and Cool</p>
-    </div>
-  </footer>
-
-
-</body>
-
+    </footer>
+  </body>
 </html>
