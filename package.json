@@ -1,18 +1,23 @@
 {
-  "name": "ejs-challenge",
+  "name": "save-the-bus",
   "version": "1.0.0",
-  "description": "",
+  "description": "Save the bus website",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottdangelo/save-the-bus.git"
+  },
+  "author": "Scott DAngelo",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottdangelo/save-the-bus/issues"
+  },
+  "homepage": "https://github.com/scottdangelo/save-the-bus#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "lodash": "^4.17.11",
-    "nodemon": "^2.0.7"
+    "express": "^4.18.1"
   }
 }
